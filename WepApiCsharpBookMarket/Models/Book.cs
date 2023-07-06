@@ -10,7 +10,7 @@ namespace WepApiCsharpBookMarket.Models
         [Required]
         public int Id { get; set; }
 
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
         [Required]
         public string Name { get; set; }

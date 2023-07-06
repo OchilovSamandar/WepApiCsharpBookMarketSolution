@@ -31,7 +31,7 @@ namespace WepApiCsharpBookMarket.Models
         public int RoleId { get; set; }
 
         [Required]
-        public List<Book> books { get; set; }
+        public List<Book> Books { get; set; }
 
         [Required]
         public bool IsEnable { get; set; } = true;

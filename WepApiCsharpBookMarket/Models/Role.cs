@@ -10,7 +10,7 @@ namespace WepApiCsharpBookMarket.Models
     {
         [Key]
         [Required]
-        public int Id { get; set; }
+        public int RoleId { get; set; }
 
         [Required]
         public string Name { get; set; }
@@ -20,5 +20,8 @@ namespace WepApiCsharpBookMarket.Models
 
         [Required]
         public List<Permission> Permissions { get; set; }
+
+        [Required]
+        public List<User> Users  { get; set; }
     }
 }
